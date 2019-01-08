@@ -15,6 +15,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
 
+
 Public Sub CommandButton1_Click()
 
     dFunc.msgYesNoTxt = "Er du sikker? Dette vil slette den tidligere besvarelse, hvis en sådan eksisterer."

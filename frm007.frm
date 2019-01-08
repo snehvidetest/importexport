@@ -14,6 +14,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
+
 Public Sub OKButton_Click()
 Worksheets("SpmSvar").Range("C17:C17").Value = Controls("Label1").Caption
 
