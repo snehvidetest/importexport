@@ -12,6 +12,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
 Public Sub OKButton_Click()
 
 If TextBox1.Enabled = True And TextBox1.Value = "" Then

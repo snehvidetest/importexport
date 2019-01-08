@@ -15,6 +15,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
 
+
 Public Sub OKButton_Click()
     ' Gem svar i "SpmSvar"
     Worksheets("SpmSvar").Range("C45:C45").Value = Controls("Label1").Caption

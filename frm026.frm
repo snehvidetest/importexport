@@ -17,6 +17,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Private Sub Forfaldsdato_Click()
 If Forfaldsdato.Value = True Then
     txtFFStart.Enabled = True
