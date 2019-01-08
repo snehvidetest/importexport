@@ -14,6 +14,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
+
 Private Sub CheckBox2_Click()
 If CheckBox2.Value = True Then
     Forfaldsdato = False

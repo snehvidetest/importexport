@@ -14,6 +14,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
+
 Public Sub OKButton_Click()
 If OptionButton1.Value = False And OptionButton2.Value = False Then
     dFunc.msgError = "Vælg venligst et svar for at forsætte"
