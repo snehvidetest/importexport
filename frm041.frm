@@ -15,6 +15,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Public Sub OKButton_Click()
     Worksheets("SpmSvar").Range("C101:C101").Value = Controls("Label1").Caption
     

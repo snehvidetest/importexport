@@ -9,15 +9,8 @@ Public testWS As Worksheet
 
 Sub Main_test_forms()
 
-'~~~~~~~~~~~~~~~~I've added this comment to demonstrate Githubs version control!'~~~~~~~~~~~~~~~~
-
-'----------------Now we try with the importexport add-in! Exciting stuff--------------
-'2nd try
-
 '    Application.ScreenUpdating = False
     Dim wb As Workbook, wks As Worksheet
-    
-'~~~~~~~~~~~~~~~~One more time!~~~~~~~~~~~~~~~~
     
     workbookName = "FF_Spgskema_TC_main.xlsm"               'Name of test workbook
     worksheetName = "FF - Test Design"                      'Name of sheet with testcases

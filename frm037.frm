@@ -18,6 +18,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Public Sub OKButton_Click()
        
     ' Validering for numeriske værdier

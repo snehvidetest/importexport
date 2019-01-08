@@ -17,6 +17,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Private Sub cboFordringstype_Exit(ByVal Cancel As MSForms.ReturnBoolean)
    
 If Not IsError(Application.Match(cboFordringstype, Worksheets("FID_FTYPE_Data").Range("C2:C7561"), 0)) Then

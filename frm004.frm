@@ -15,6 +15,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
 
+
 Public Sub OKButton_Click()
 ' Validering af at der skal være en startdato for modtagelsesperioden
 If TextBox1.Value = "" Then
